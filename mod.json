@@ -10,7 +10,7 @@
 	"name": "Editor Shortcut",
 	"version": "v1.0.0",
 	"developer": "Immortal Bean",
-	"description": "Adds an editor shortcut button to the main menu!",
+	"description": "Adds an editor shortcut button!",
 	"resources": {
 		"sprites": [
 			"resources/editorShortcutBtn001.png"
