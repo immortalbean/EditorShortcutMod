@@ -4,7 +4,7 @@
 using namespace geode::prelude;
 
 #include <Geode/modify/MenuLayer.hpp>
-class $modify(MyMenuLayer, MenuLayer) {
+class $modify(UpdatedMenuLayer, MenuLayer) {
 	bool init() {
 
 		if (!MenuLayer::init()) {
@@ -15,7 +15,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 			CCSprite::create("editorShortcutBtn001.png"_spr),
 			this,
 	
-			menu_selector(MyMenuLayer::onEditorShortcutButton)
+			menu_selector(UpdatedMenuLayer::onEditorShortcutButton)
 		);
 		auto location = "side-menu"; //initializes as side-menu as fallback
 		std::string locationSetting = Mod::get()->getSettingValue<std::string>("button_location");
