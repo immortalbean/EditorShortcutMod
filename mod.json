@@ -1,0 +1,19 @@
+{
+	"geode": "4.5.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "immortal_bean.editor_shortcut",
+	"name": "Editor Shortcut",
+	"version": "v1.0.0",
+	"developer": "Immortal Bean",
+	"description": "Adds an editor shortcut button to the main menu!",
+	"resources": {
+		"sprites": [
+			"resources/editorShortcutBtn001.png"
+        ]
+    }
+}
