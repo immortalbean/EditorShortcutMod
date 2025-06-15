@@ -15,5 +15,16 @@
 		"sprites": [
 			"resources/editorShortcutBtn001.png"
         ]
-    }
+    },
+	"settings":
+		{
+			"button_location": {
+				"type": "string",
+				"default": "Left",
+				"description": "The location of the button in the <cb>main menu.</c>",
+				"name": "Button Location",
+				"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
+				"one-of": ["left", "right", "bottom"]
+			}
+		}
 }

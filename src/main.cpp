@@ -17,7 +17,18 @@ class $modify(MyMenuLayer, MenuLayer) {
 	
 			menu_selector(MyMenuLayer::onEditorShortcutButton)
 		);
-		auto menu = this->getChildByID("side-menu");
+		auto location = "side-menu"; //initializes as side-menu as fallback
+		std::string locationSetting = Mod::get()->getSettingValue<std::string>("button_location");
+		
+		if (locationSetting == "left") {
+			location = "side-menu";
+		} else if (locationSetting == "right") {
+			location = "right-side-menu";
+		} else if (locationSetting == "bottom") {
+			location = "bottom-menu";
+		}
+		
+		auto menu = this->getChildByID(location);
 		menu->addChild(EditorShortcutButton);
 
 		EditorShortcutButton->setID("EditorShortcut-button"_spr);
