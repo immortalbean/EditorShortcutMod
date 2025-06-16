@@ -13,7 +13,7 @@
 	"description": "Adds an editor shortcut button!",
 	"resources": {
 		"sprites": [
-			"resources/editorShortcutBtn001.png"
+			"resources/*.png"
         ]
     },
 	"settings":
