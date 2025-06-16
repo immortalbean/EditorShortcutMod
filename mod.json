@@ -24,7 +24,7 @@
 				"description": "The location of the button in the <cb>main menu.</c>",
 				"name": "Button Location",
 				"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
-				"one-of": ["left", "right", "bottom"]
+				"one-of": ["left", "right", "bottom", "center", "top left", "top right"]
 			}
 		}
 }

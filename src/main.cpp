@@ -26,6 +26,12 @@ class $modify(UpdatedMenuLayer, MenuLayer) {
 			location = "right-side-menu";
 		} else if (locationSetting == "bottom") {
 			location = "bottom-menu";
+		} else if (locationSetting == "center") {
+			location = "main-menu";
+		} else if (locationSetting == "top left") {
+			location = "close-menu";
+		} else if (locationSetting == "top right") {
+			location = "top-right-menu";
 		}
 		
 		auto menu = this->getChildByID(location);
