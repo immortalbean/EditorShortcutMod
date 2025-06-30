@@ -11,6 +11,7 @@
 	"version": "v1.0.2",
 	"developer": "Immortal Bean",
 	"description": "Adds an editor shortcut button!",
+	"tags": ["utility"],
 	"resources": {
 		"sprites": [
 			"resources/*.png"
@@ -20,7 +21,7 @@
 		{
 			"button_location": {
 				"type": "string",
-				"default": "Left",
+				"default": "left",
 				"description": "The location of the button in the <cb>main menu.</c>",
 				"name": "Button Location",
 				"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
