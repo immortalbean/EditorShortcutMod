@@ -8,7 +8,7 @@
 	},
 	"id": "immortal_bean.editor_shortcut",
 	"name": "Editor Shortcut",
-	"version": "v1.0.0",
+	"version": "v1.0.2",
 	"developer": "Immortal Bean",
 	"description": "Adds an editor shortcut button!",
 	"resources": {
